@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+  color: #ffffff;
+  /* Change text color to white */
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  z-index: 888;
+  /* Lower z-index than dropdown-content */
+  margin-top: 60px;
+  /* Ensure no margin */
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 20px;
+  flex: 1;
+  width: 100%;
+  /* Ensure main-content takes full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  margin: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  /* Center text */
+  max-width: 800px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.section h2 {
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  /* Center text */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  /* Center certifications horizontally */
+}
+
+.certification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.certification img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.certification p {
+  font-weight: bold;
+  /* Make certification titles bold */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 10px;
+    /* Add padding for smaller screens */
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.project-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.project-detail h2 {
+  text-align: center;
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.project-detail h3 {
+  margin-top: 20px;
+}
+
+.project-detail ol {
+  margin-left: 20px;
 }

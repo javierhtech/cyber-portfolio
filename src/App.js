@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import NavBar from './components/NavBar';
+import MatrixBackground from './components/MatrixBackground';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import WindowsDomain from './components/projects/WindowsDomain';
+import ActiveDirectory from './components/projects/ActiveDirectory';
+import HelpDesk from './components/projects/HelpDesk';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <MatrixBackground />
+        <NavBar />
+        <header>
+          <h1>My Cyber Portfolio</h1>
+        </header>
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<><About /><Skills /><Projects /><Contact /></>} />
+            <Route path="/windows-domain" element={<WindowsDomain />} />
+            <Route path="/active-directory" element={<ActiveDirectory />} />
+            <Route path="/help-desk" element={<HelpDesk />} />
+          </Routes>
+        </main>
+        <footer>
+          <p>&copy; 2024 Your Name</p>
+        </footer>
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
+
+

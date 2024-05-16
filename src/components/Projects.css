@@ -1,0 +1,10 @@
+.project-link {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  /* Highlight color on hover */
+}
