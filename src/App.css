@@ -29,6 +29,13 @@ header {
   /* Ensure no margin */
 }
 
+@media (max-width: 768px) {
+  .App {
+    padding-top: 100px;
+    /* Adjust the margin for smaller screens */
+  }
+}
+
 footer {
   background-color: #111;
   padding: 20px;
