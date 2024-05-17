@@ -14,8 +14,9 @@ const Skills = () => {
         <li>Virtualization (VirtualBox, VMware)</li>
         <li>Help Desk Support</li>
         <li>Customer Service</li>
-        <li>Python</li>
         <li>JavaScript</li>
+        <li>Python</li>
+
       </ul>
       <h3>Certifications</h3>
       <Certifications />
