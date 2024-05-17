@@ -5,7 +5,7 @@ const About = () => {
     <section className="section about" id="about">
       <h2>About Me</h2>
       <p>
-        I am an aspiring IT professional with a strong interest in network security, system administration, and providing excellent technical support. Currently seeking entry-level opportunities to leverage my skills and knowledge in a dynamic work environment.
+        I am an aspiring Cyber professional with a strong interest in Network and Web 3 security, System Administration, and Technical Support. Currently seeking opportunities to leverage my skills and knowledge in a dynamic work environment.
       </p>
     </section>
   );

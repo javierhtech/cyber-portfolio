@@ -18,7 +18,7 @@ function App() {
         <MatrixBackground />
         <NavBar />
         <header>
-          <h1>My Cyber Portfolio</h1>
+          <h1>Javier's Portfolio</h1>
         </header>
         <main className="main-content">
           <Routes>
@@ -29,7 +29,7 @@ function App() {
           </Routes>
         </main>
         <footer>
-          <p>&copy; 2024 Your Name</p>
+          <p>&copy; 2024 Javier Hernandez</p>
         </footer>
       </div>
     </Router>

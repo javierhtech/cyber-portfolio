@@ -4,8 +4,8 @@ const Contact = () => {
   return (
     <section className="section contact" id="contact">
       <h2>Contact</h2>
-      <p>Email: your.email@example.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+      <p>GitHub: <a href="https://github.com/javierhtech" target='_blank' rel='noopener noreferrer'></a>GitHub</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/javierhernandezdev/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
     </section>
   );
 };
