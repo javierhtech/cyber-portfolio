@@ -5,7 +5,7 @@ import './Projects.css'; // Make sure to create and import a CSS file for stylin
 const Projects = () => {
   return (
     <section className="section projects" id="projects">
-      <h2>Projects</h2>
+      <h2>Projects/Challenges</h2>
       <ul>
         <li>
           <Link to="/windows-domain" className="project-link">Windows Domain Environment</Link>
@@ -14,7 +14,7 @@ const Projects = () => {
           <Link to="/active-directory" className="project-link">Active Directory Management</Link>
         </li>
         <li>
-          <Link to="/help-desk" className="project-link">Help Desk Ticketing System</Link>
+          <Link to="/DodCtf" className="project-link">DoD Cyber Sentinel Challenge</Link>
         </li>
       </ul>
     </section>

@@ -1,8 +1,34 @@
-#network-diagram img {
+/* Styles for the Windows Domain Environment Project */
+
+#network-diagram img,
+#tools-usage img,
+#results-findings img {
   width: 100%;
   max-width: 600px;
   /* or any desired max width */
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+p,
+ul {
+  line-height: 1.6;
+  margin: 15px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* Add padding to prevent text from being cut off */
+}
+
+ul li {
+  margin-bottom: 10px;
 }
