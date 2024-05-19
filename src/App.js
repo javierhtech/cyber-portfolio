@@ -13,7 +13,7 @@ import DodCtf from './components/projects/DodCtf';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/cyber-portfolio'>
       <div className="App">
         <MatrixBackground />
         <NavBar />
