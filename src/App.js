@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
-import MatrixBackground from './components/MatrixBackground';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -13,9 +12,8 @@ import DodCtf from './components/projects/DodCtf';
 
 function App() {
   return (
-    <Router basename='/cyber-portfolio'>
+    <Router>
       <div className="App">
-        <MatrixBackground />
         <NavBar />
         <header>
           <h1>Javier's Portfolio</h1>
