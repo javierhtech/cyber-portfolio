@@ -9,7 +9,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import WindowsDomain from './components/projects/WindowsDomain';
 import ActiveDirectory from './components/projects/ActiveDirectory';
-import HelpDesk from './components/projects/DodCtf';
+import DodCtf from './components/projects/DodCtf';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Route path="/" element={<><About /><Skills /><Projects /><Contact /></>} />
             <Route path="/windows-domain" element={<WindowsDomain />} />
             <Route path="/active-directory" element={<ActiveDirectory />} />
-            <Route path="/help-desk" element={<HelpDesk />} />
+            <Route path="/DodCtf" element={<DodCtf />} />
           </Routes>
         </main>
         <footer>
