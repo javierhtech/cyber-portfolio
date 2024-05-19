@@ -41,7 +41,7 @@ function NavBar() {
               <div className="dropdown-content">
                 <RouterLink to="/windows-domain">Windows Domain Environment</RouterLink>
                 <RouterLink to="/active-directory">Active Directory Management</RouterLink>
-                <RouterLink to="/help-desk">Help Desk Ticketing System</RouterLink>
+                <RouterLink to="/help-desk">Dod Cyber Challenge</RouterLink>
               </div>
             )}
           </div>
